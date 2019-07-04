@@ -11,12 +11,12 @@ namespace bs
 	 *  @{
 	 */
 
-	/** Defines what amount of data should be written during the time_t to String conversion. */
+	/** Defines what type of data should be written during the time_t to String conversion. */
 	enum class TimeToStringConversionType
 	{
-		Date = 0, // Only year, month and day
-		Time = 1, // Only hours, minutes and seconds 
-		Full = 2 // Full date and time
+		Date = 0, /**< Only year, month and day */
+		Time = 1, /**< Only hours, minutes and seconds */
+		Full = 2 /**< Full date and time */
 	};
 	
 	/**
